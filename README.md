@@ -166,7 +166,18 @@ CUDA kernels are launched sequentially on the default stream to maintain the for
 
 ---
 
-## 9. Compilation and Execution
+## 9. Execution Results
+
+### Run 1
+![Execution Result 1](screenshots/result_1.png)
+
+### Run 2
+![Execution Result 2](screenshots/result_2.png)
+
+### Run 3
+![Execution Result 3](screenshots/result_3.png)
+
+## 10. Compilation and Execution
 
 ### Prerequisites
 
@@ -184,3 +195,5 @@ Execute:
 
 ```bash
 nvcc -O2 neural_network.cu -o neural_network.exe
+
+
